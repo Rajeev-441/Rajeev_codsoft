@@ -3,10 +3,10 @@
 import tkinter as tk
 
 def chatbot_response(user_input):
-    # Convert user input to lower case for case-insensitive matching
+   
     user_input = user_input.lower()
 
-    # Predefined responses
+    
     if "hello" in user_input or "hi" in user_input:
         return "Hello! How can I assist you today?"
     elif "how are you" in user_input:
